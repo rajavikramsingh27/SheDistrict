@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb196216434767001</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>FacebookAppID</key>
+	<string>196216434767001</string>
+	<key>FacebookDisplayName</key>
+	<string>SheDistricts</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fbapi20130214</string>
+		<string>fbapi20130410</string>
+		<string>fbapi20130702</string>
+		<string>fbapi20131010</string>
+		<string>fbapi20131219</string>
+		<string>fbapi20140410</string>
+		<string>fbapi20140116</string>
+		<string>fbapi20150313</string>
+		<string>fbapi20150629</string>
+		<string>fbapi20160328</string>
+		<string>fbauth</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>example.com</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>${PRODUCT_NAME} needs Camara to complete your profile</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>${PRODUCT_NAME} needs to location to get users near by you</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>${PRODUCT_NAME} needs to location to get users near by you</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>${PRODUCT_NAME} needs to location to get users near by you</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>${PRODUCT_NAME} needs Microphone to complete your profile</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>${PRODUCT_NAME} needs PhotoLibrary to complete your profile</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>roboto.thin.ttf</string>
+		<string>roboto.thin-italic.ttf</string>
+		<string>roboto.light.ttf</string>
+		<string>roboto.light-italic.ttf</string>
+		<string>roboto.regular.ttf</string>
+		<string>roboto.italic.ttf</string>
+		<string>roboto.medium-italic.ttf</string>
+		<string>roboto.bold.ttf</string>
+		<string>roboto.bold-italic.ttf</string>
+		<string>roboto.black.ttf</string>
+		<string>roboto.black-italic.ttf</string>
+		<string>Bitlamero Script.otf</string>
+		<string>PlayfairDisplay-Black.otf</string>
+		<string>PlayfairDisplay-BlackItalic.otf</string>
+		<string>PlayfairDisplay-Bold.otf</string>
+		<string>PlayfairDisplay-BoldItalic.otf</string>
+		<string>PlayfairDisplay-Italic.otf</string>
+		<string>PlayfairDisplay-Regular.otf</string>
+		<string>PlayfairDisplaySC-Black.otf</string>
+		<string>PlayfairDisplaySC-BlackItalic.otf</string>
+		<string>PlayfairDisplaySC-Bold.otf</string>
+		<string>PlayfairDisplaySC-BoldItalic.otf</string>
+		<string>PlayfairDisplaySC-Italic.otf</string>
+		<string>PlayfairDisplaySC-Regular.otf</string>
+		<string>Roboto-Medium.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

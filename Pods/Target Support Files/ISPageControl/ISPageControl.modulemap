@@ -1,0 +1,6 @@
+framework module ISPageControl {
+  umbrella header "ISPageControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
